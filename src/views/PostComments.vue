@@ -1,5 +1,7 @@
 <template>
-    $END$
+    <div class="post-comments">
+        POst Comments
+    </div>
 </template>
 
 <script>
