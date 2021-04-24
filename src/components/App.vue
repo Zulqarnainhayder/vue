@@ -16,7 +16,6 @@ export default {
   components: {LoginRegisterHeader, Header, Footer},
 }; 
 </script>
-
 <style>
   @import './assets/css/style.css';
 </style>

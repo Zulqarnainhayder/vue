@@ -1,0 +1,323 @@
+/* header Stylling */
+
+#header-background-color {
+    background-color: #0050A3 !important;
+}
+.nav-link-colors{
+    color: rgba(255,255,255,0.7);
+}
+.nav-link-colors:hover{
+    color: white;
+}
+
+/* home page Stylling */
+
+/* top Section */
+
+#top-section{
+    background: linear-gradient(
+        90deg
+        , #000 26.81%, rgba(0,0,0,0.0001) 91.73%),url(../download.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+}
+.top-section-container-padding{
+    padding: 8rem 0 8rem 0;
+}
+.top-section-main-heading{
+    font-weight: bold;
+    color: white;
+}
+.top-section-text{
+    color: white;
+    font-size: 16px;
+}
+
+/* Second Section */
+
+.second-section-container-padding{
+    padding: 5rem 0 3rem 0;
+}
+.second-section-main-heading{
+    font-weight: bold;
+}
+#second-section .image-border-radius {
+    border-radius: 10px;
+}
+#second-section .padding-x{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+/* Third Section */
+
+#third-section{
+    background: #F4F6F9 !important;
+    padding: 5rem 0;
+}
+.l-pos-absolute{
+    position: absolute !important;
+}
+#third-section .carsol-inn{
+    box-shadow: 0px 2px 25px 0px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    background: #ffffff;
+    width: 75%;
+    margin: auto;
+    padding: 5rem 0;
+}
+.para-text-height{
+    height: 150px;
+}
+.bg-c-g100{
+    background: #F4F6F9 !important;
+}
+.bg-c-w100{
+    background: #ffffff !important;
+}
+.t-c-b300{
+    color: #0073EC !important;
+}
+#third-section .carousel-indicators li{
+    background-color: gray;
+}
+.block-position{
+    z-index: 1;
+    left: 45%;
+    bottom: 85%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.block-inner-position{
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    left: 12px;
+    top: 11px;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1);
+}
+.comma-pos{
+    left: 20px;
+    top: -6px;
+    font-size: 85px;
+}
+
+/* Fourth Section */
+
+#fourth-section{
+    padding: 5rem 0 0 0;
+}
+#fourth-section .button{
+    font-family: "Proxima Nova", sans-serif;
+    color: #0073EC;
+    background: transparent;
+    border: solid 1px #0073EC;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 0.75rem 1rem 0.625rem;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: none;
+    vertical-align: baseline;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#fourth-section .button-contact{
+    font-family: "Proxima Nova", sans-serif;
+    color: #ffffff;
+    background: #0073EC;
+    border: solid 1px #0073EC;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 0.75rem 1rem 0.625rem;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: none;
+    vertical-align: baseline;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Fifth Section */
+
+#fifth-section{
+    background: #F4F6F9 !important;
+    padding: 5rem 0;
+}
+
+/* Footer Section */
+
+#footer{
+    background-color: rgb(7, 28, 38);
+    color: rgb(255, 255, 255);
+    padding: 5rem 0;
+}
+.list-unset{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* LoginRegister page design */
+
+#main{
+    background: linear-gradient(
+        90deg
+        , #000 26.81%, rgba(0,0,0,0.0001) 91.73%),url(../backgroundlogin.jpg);
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Login Form */
+
+#login-form{
+    left: 0%;
+    right: 0%;
+    top: 35%;
+    position: absolute;
+    z-index: 1;
+}
+
+#login-form form .field-group{
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+    padding: 2px 10px 2px 0;
+    -webkit-border-radius: 35px;
+    display: -webkit-flex;
+}
+
+#login-form .svg-inline--fa{
+    color: white;
+    height: 2.7em;
+    margin-left: 20px;
+}
+
+.wthree-field input{
+    padding: 10px 0 10px 15px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #ddd;
+    letter-spacing: 1px;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    width: 100%;
+    outline: none;
+}
+
+#login-form button.btn{
+    background: #007bff;
+    border: none;
+    color: #fff;
+    padding: 11px 15px;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    -webkit-transition: 0.5s all;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+}
+
+/* Register Form */
+
+#register-form{
+    left: 0%;
+    right: 0%;
+    top: 18%;
+    position: absolute;
+    z-index: 1;
+}
+
+#register-form form .field-group{
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+    padding: 2px 10px 2px 0;
+    -webkit-border-radius: 35px;
+    display: -webkit-flex;
+}
+
+#register-form .svg-inline--fa{
+    color: white;
+    height: 2.7em;
+    margin-left: 20px;
+}
+
+.wthree-field input{
+    padding: 10px 0 10px 15px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #ddd;
+    letter-spacing: 1px;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    width: 100%;
+    outline: none;
+}
+
+#register-form .form-control{
+    color: white;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+    padding: 2px 2px 2px 20px;
+    -webkit-border-radius: 35px;
+    display: -webkit-flex;
+}
+.optcolor{
+    color: black;
+}
+
+#register-form button.btn{
+    background: #007bff;
+    border: none;
+    color: #fff;
+    padding: 11px 15px;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    -webkit-transition: 0.5s all;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+}
+
+.font-color{
+    color: white;
+}
+
+@media (min-width: 320px) and (max-width: 767px)
+   {
+    #register-form{
+           top: 10%;
+       }
+   }
